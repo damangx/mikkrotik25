@@ -1,0 +1,7 @@
+# games.rsc - Address-list entries for Games (editable)
+:log info "Importing games list"
+/ip firewall address-list add list=Games address=roblox.com comment="Roblox (domain)"
+/ip firewall address-list add list=Games address=mobilelegends.com comment="Mobile Legends"
+/ip firewall address-list add list=Games address=garena.com comment="Garena/CODM"
+/ip firewall address-list add list=Games address=store.steampowered.com comment="Steam (game downloads)"
+/ip firewall address-list add list=Games address=epicgames.com comment="Epic Games"
